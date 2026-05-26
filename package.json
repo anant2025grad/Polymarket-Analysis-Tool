@@ -1,0 +1,16 @@
+{
+  "name": "polymarket-smart-money",
+  "version": "1.0.0",
+  "description": "Polymarket Smart Money Dashboard — top trader position aggregator",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\" --names \"API,UI\" --prefix-colors \"cyan,green\"",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\" --names \"API,UI\" --prefix-colors \"cyan,green\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
