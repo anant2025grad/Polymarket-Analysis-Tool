@@ -1,4 +1,4 @@
-# Polymarket Smart Money Dashboard
+# Polymarket Analysis Tool
 
 A beginner-friendly leaderboard analysis tool for Polymarket. It pulls top traders from Polymarket's public APIs, fetches their current open positions, and aggregates the data into a readable dashboard.
 
